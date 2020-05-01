@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.0
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -21,3 +21,108 @@ patch:
   SNYK-JS-TREEKILL-536781:
     - snyk > snyk-sbt-plugin > tree-kill:
         patched: '2019-12-25T16:11:56.788Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - express-validator > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback-boot > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - normalizr > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - '@freecodecamp/loopback-component-passport > strong-globalize > lodash':
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback-connector-mongodb > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback-boot > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback-connector-mongodb > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-datasource-juggler > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-datasource-juggler > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-phase > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > strong-remoting > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-datasource-juggler > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-phase > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > strong-remoting > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback-connector-mongodb > loopback-connector > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback-connector-mongodb > loopback-connector > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > strong-remoting > jayson > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > strong-remoting > strong-error-handler > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > strong-remoting > loopback-phase > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-connector-remote > strong-remoting > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-datasource-juggler > loopback-connector > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-connector-remote > strong-remoting > jayson > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-error-handler > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > async > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T08:17:37.908Z'
