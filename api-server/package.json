@@ -34,7 +34,7 @@
     "express-session": "^1.17.0",
     "express-state": "^2.0.0",
     "express-validator": "^6.0.0",
-    "googleapis": "^42.0.0",
+    "googleapis": "^49.0.0",
     "helmet": "^3.21.1",
     "helmet-csp": "^2.9.3",
     "jsonwebtoken": "^8.5.1",
