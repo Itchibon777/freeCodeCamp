@@ -29,7 +29,7 @@
     "gatsby": "^2.18.10",
     "gatsby-cli": "^2.8.2",
     "gatsby-link": "^2.2.22",
-    "gatsby-plugin-advanced-sitemap": "^1.4.5",
+    "gatsby-plugin-advanced-sitemap": "^1.5.6",
     "gatsby-plugin-create-client-paths": "^2.1.15",
     "gatsby-plugin-manifest": "^2.2.23",
     "gatsby-plugin-postcss": "^2.1.13",
