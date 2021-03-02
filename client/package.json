@@ -74,7 +74,8 @@
     "sanitize-html": "^1.20.0",
     "sass.js": "^0.11.0",
     "store": "^2.0.12",
-    "validator": "^10.11.0"
+    "validator": "^10.11.0",
+    "snyk": "^1.464.0"
   },
   "keywords": [
     "gatsby"
@@ -92,7 +93,9 @@
     "format:utils": "prettier-eslint --write --trailing-comma none --single-quote './utils/**/*.js'",
     "format": "npm run format:gatsby && npm run format:src && npm run format:utils",
     "serve": "gatsby serve",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.1.2",
@@ -109,5 +112,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  }
+  },
+  "snyk": true
 }
