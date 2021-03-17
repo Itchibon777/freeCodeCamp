@@ -48,3 +48,41 @@ patch:
         patched: '2021-03-17T16:21:32.118Z'
     - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/preset-modules > @babel/types > lodash:
         patched: '2021-03-17T16:21:32.118Z'
+    - gatsby-transformer-remark > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - react-redux > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - enzyme > cheerio > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > babel-plugin-lodash > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > css-loader > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > devcert > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > eslint > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > webpack-merge > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > babel-plugin-lodash > @babel/types > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > eslint > table > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > webpack-dev-server > portfinder > async > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/preset-modules > @babel/types > lodash:
+        patched: '2021-03-17T18:00:19.538Z'
