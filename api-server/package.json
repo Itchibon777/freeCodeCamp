@@ -61,13 +61,13 @@
     "redux-saga": "^0.16.0",
     "reselect": "^3.0.1",
     "rollbar": "^2.13.0",
-    "rss-parser": "^3.7.3",
+    "rss-parser": "^3.13.0",
     "rx": "^4.1.0",
     "shortid": "^2.2.15",
     "stripe": "^6.1.0",
     "uuid": "^3.3.3",
     "validator": "^9.4.1",
-    "snyk": "^1.495.0"
+    "snyk": "^1.586.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
