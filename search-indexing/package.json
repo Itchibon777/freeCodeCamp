@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/freeCodeCamp/freeCodeCamp#readme",
   "dependencies": {
-    "algoliasearch": "^3.25.1",
+    "algoliasearch": "^4.0.0",
     "axios": "^0.21.1",
     "chalk": "^2.3.2",
     "debug": "^4.1.1",
@@ -43,7 +43,7 @@
     "rxjs": "^6.4.0",
     "secure-compare": "^3.0.1",
     "validator": "^10.11.0",
-    "snyk": "^1.495.0"
+    "snyk": "^1.685.0"
   },
   "devDependencies": {
     "html-entities": "^1.2.1",
