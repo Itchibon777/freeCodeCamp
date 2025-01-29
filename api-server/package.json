@@ -63,7 +63,7 @@
     "rollbar": "^2.13.0",
     "rss-parser": "^3.7.3",
     "rx": "^4.1.0",
-    "shortid": "^2.2.15",
+    "shortid": "^2.2.17",
     "stripe": "^6.1.0",
     "uuid": "^3.3.3",
     "validator": "^9.4.1",
