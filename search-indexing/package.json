@@ -38,12 +38,12 @@
     "fs-extra": "^7.0.1",
     "googleapis": "^49.0.0",
     "gray-matter": "^4.0.2",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "readdirp-walk": "^1.7.0",
     "rxjs": "^6.4.0",
     "secure-compare": "^3.0.1",
     "validator": "^10.11.0",
-    "snyk": "^1.495.0"
+    "snyk": "^1.996.0"
   },
   "devDependencies": {
     "html-entities": "^1.2.1",
